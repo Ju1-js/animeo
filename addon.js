@@ -34,15 +34,18 @@ const CATALOGS = [
 
 // Docs: https://github.com/Stremio/stremio-addon-sdk/blob/master/docs/api/responses/manifest.md
 const builder = new addonBuilder({
-  id: "com.jenryk.animeo",
-  version: "0.0.4",
+  id: "com.Ju1-js.Synkuru",
+  version: "0.0.1",
+  name: "Synkuru",
+  description:
+    "Synkuru interfaces with Anilist and *will allow custom AnimeTosho RSS feeds.",
+  background:
+    "https://raw.githubusercontent.com/Ju1-js/synkuru/main/static/media/addon-background.png",
+  logo: "https://raw.githubusercontent.com/Ju1-js/synkuru/main/static/media/addon-logo.png",
+  resources: ["catalog", /*"meta",*/ "subtitles"],
+  types: ["anime", "movie", "series"],
   catalogs: CATALOGS,
-  logo: "https://raw.githubusercontent.com/Jenrykster/animeo/main/logo.png",
-  resources: ["subtitles"],
-  types: ["movie", "series"],
   idPrefixes: ["anilist", "tt", "kitsu"],
-  name: "animeo",
-  description: "Track your anime progress with anilist while using stremio.",
   behaviorHints: {
     configurable: true,
     configurationRequired: true,

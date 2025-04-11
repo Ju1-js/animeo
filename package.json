@@ -1,16 +1,24 @@
 {
-	"name": "stremio-addon-anistremio",
-	"version": "0.0.4",
-	"description": "Track your anime progress with anilist while using stremio.",
-	"scripts": {
-		"start": "node server.js",
-		"postinstall": "patch-package"
-	},
-	"dependencies": {
-		"anilist-node": "^1.14.0",
-		"axios": "^1.5.0",
-		"patch-package": "^8.0.0",
-		"sqlite3": "^5.1.7",
-		"stremio-addon-sdk": "^1.6.10"
-	}
+  "name": "synkuru",
+  "version": "0.0.1",
+  "description": "Synkuru interfaces with Anilist and allows custom AnimeTosho RSS feeds.",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "anilist-node": "^1.14.1",
+    "axios": "~1.8.3",
+    "bottleneck": "^2.19.5",
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2",
+    "patch-package": "~8.0.0",
+    "postgres": "~3.4.5",
+    "sqlite3": "^5.1.7",
+    "stremio-addon-sdk": "~1.6.10"
+  },
+  "overrides": {
+    "router": "~1.3.8",
+    "path-to-regexp": "~0.1.10"
+  }
 }

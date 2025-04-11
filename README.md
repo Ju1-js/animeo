@@ -1,8 +1,11 @@
-# Animeo
-This is a Stremio addon that uses the AniList API to track your anime series/movie progress.
+<img src="static/media/addon-banner.svg" alt="Synkuru" width="500"/>
+
+Stremio addon that uses the AniList API to track your anime series/movie progress.
+Synkuru is a fork of Animeo.
+*(Sync + Kuru [来る, "to come"])*
 
 ### How to use it
-Go to the [addon configuration URL](https://REPLACEME.baby-beamup.club/configure), click on the **ANILIST LOGIN** button, and follow the remaining instructions on the page.
+Go to the [addon configuration URL](https://REPLACEME/configure), click on the **ANILIST LOGIN** button, and follow the remaining instructions on the page.
 
 Then, just watch any anime through Stremio's Cinemeta or Kitsu catalogs. I **strongly** recommend using Kitsu, as the Kitsu ID of the anime will be converted to the equivalent AniList ID if there is an AniList entry available for the anime.
 
@@ -31,6 +34,6 @@ To host the addon on your own machine, you'll need to:
 Feel free to open an issue if there is any doubt or problem.
 
 ### Support
-If you like what I do, consider buying me a coffee ;)
+Consider buying Jenrykster a coffee (Original Dev)
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jenryk)

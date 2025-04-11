@@ -1,0 +1,63 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  height: 100vh;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../media/addon-background.png);
+}
+
+main {
+  background-color: rgba(142, 142, 142, 0.189);
+  margin: 0 auto;
+  padding: 0 5rem;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.button {
+  background-color: #7b5bf5;
+  width: 7.5rem;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.disabled {
+  opacity: 0.2 !important;
+}
+
+#login-button {
+  background-color: #47b8f3;
+}
+
+#success-message {
+  display: none;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.25rem;
+  border: 1px solid white;
+  margin: 20px;
+  max-width: 500px;
+}
+
+#options h5 {
+  margin: 0.5rem;
+  text-align: center;
+}
+
+#helper {
+  display: none;
+}
